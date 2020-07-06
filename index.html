@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <!-- ETIQUETA META CON VIEWPORT PARA CARACTERÍSTICA RESPONSIVE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <title>Presentación Bootstrap 4!</title>
+  </head>
+
+
+  <body>
+    <div class="container-fluid">
+      <!-- NAVBAR CON TOGGLER PARA DISPOSITIVOS MEDIANOS Y PEQUEÑOS -->
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark" id="top">
+        <a href="http://www.frtdf.utn.edu.ar/" target="_blank"><img class="rounded" src="img/utn-tdf-logo.png" alt="Logo UTN-TDF" title="UTN-TDF" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false" aria-controls="collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link text-white" href="#titulo-video">Primeros pasos</a></li>
+            <!-- BOTÓN DROPDOWN SEPARADO (SPLIT) -->
+              <div class="btn-group">
+                <button type="button" class="btn text-white"><a id="arts" href="#titulo-articulos">Artículos</a></button>
+                <button type="button" class="btn text-white dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+                  <span class="caret"></span>
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="articulos/ARTÍCULO-EXTRA-PRIMEROS-PASOS-EN-BOOTSTRAP.pdf">Primeros pasos en Bootstrap 4</a>
+                  <a class="dropdown-item" href="articulos/ARTÍCULO-CONCEPTOS-FUNDAMENTALES-EN-BOOTSTRAP-4.pdf">Conceptos fundamentales en Bootstrap 4</a>
+                </div>
+              </div>
+              <li class="nav-item"><a href="#tabla" class="nav-link text-white">Tabla de clases</a></li>
+              <li class="nav-item"><a href="#footer-id" class="nav-link text-white">ID Alumno</a></li>
+            </ul>
+          </div>
+      </nav>
+      <!-- END NAVBAR -->
+    </div>
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col col-12 col-lg-6 my-auto mx-auto">
+          <h1 id="primer-titulo" class="display-2 text-center border
+          border-dark border-top-0 border-right-0 border-left-0 pb-3">Bootstrap 4</h1>
+          <h4 class="mt-4 px-4">El tema a presentar en esta página es Bootstrap (en su última version: 4), algunos de sus componentes
+            más importantes, responsividad y algunos ejemplos de aplicación... y qué mejor manera de conocer Bootstrap 4 ¡que con un ejemplo dado
+            en una página web desarrollada con Bootstrap 4!¡Sientánse libres de apropiarse del código e intentarlo ustedes mismos!</h4>
+            <div class="mt-5 ml-5 px-2">
+              <button type="button" class="btn btn-primary btn-lg"><a class="text-light" href="https://getbootstrap.com/">Más info oficial</a></button>
+              <div class="btn-group">
+               <button type="button" class="btn btn-primary btn-lg">Otras fuentes</button>
+               <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"></button>
+               <div class="dropdown-menu">
+                 <a class="dropdown-item" href="https://www.w3schools.com/bootstrap4/">w3schools</a>
+                 <a class="dropdown-item" href="https://www.youtube.com/watch?v=59pex8k8Xr8">Tutorial Bootstrap 4</a>
+               </div>
+              </div>
+            </div>
+        </div>
+        <div class="col col-12 col-lg-6">
+          <a href="https://getbootstrap.com/" target="_blank"><img class="w-100 mx-auto d-block rounded" src="img/bootstrap4-logo.png"
+            alt="Logo de Bootstrap 4" title="Página oficial de Bootstrap 4"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5 text-justify border border-dark border-right-0 border-left-0 py-3">
+      <h4 class="text-center">Bootstrap es un framework gratis, mantenido por Twitter pero liberado como open-source,
+        especializado en front-end para ayudar a hacer del desarrollo web más rápido y fácil.
+        Incorpora, no sólo plantillas base para modificar y no tener que desarrollar desde cero
+          el código, sino también plantillas de CSS -las famosas Sass
+          (Syntactically Awseome Style Sheets)- ya pre-desarrolladas para tipografías,
+          formularios, tablas, paginaciones, modales, imágenes, carruseles, plugins de JavaScript y mucho más</h4>
+     </div>
+
+     <!-- VIDEO -->
+     <h1 id="titulo-video" class="container display-4 bg-dark rounded text-light text-center py-2 my-2">PRIMEROS PASOS</h1>
+    <div class="container-fluid bg-dark">
+      <video id="video" class="container mx-auto d-block py-3" width="640" height="480" controls>
+        <source src="videos/Primeros-pasos-Bootstrap4.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <!--ARTÍCULOS -->
+    <h1 id="titulo-articulos" class="container display-4 bg-dark rounded text-light text-center py-2 mt-5">ARTÍCULOS PRINCIPALES</h1>
+    <div id="articulos" class="container rounded bg-dark text-white text-justify mt-2 mb-5 shadow-lg">
+      <div class="row">
+        <div class="col col-12 col-lg-6">
+          <h5 class="text-center mt-3 border border-right-0 border-left-0">CONCEPTOS FUNDAMENTALES EN BOOTSTRAP 4: RESPONSIVE DESIGN, CONTAINER & GRID</h5>
+          <p class="border border-top-0 border-bottom-0 px-2">La primera definición de Bootstrap, extraída de la página oficial, dice que “Bootstrap is an open source toolkit for developing with HTML,
+            CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system,
+            extensive prebuilt components, and powerful plugins built on jQuery”, i. e., Bootstrap es un framework gratis, mantenido por Twitter
+            pero liberado como open-source, especializado en front-end para ayudar a hacer del desarrollo web más rápido y fácil.<br>
+            Actualmente se encuentra en la versión 4, que ya da soporte en la mayoría de los navegadores de uso común, excepto para Internet Explorer 9
+            y menores. Para poder utilizar Bootstrap en este navegador, se debe usar la versión 3 de Bootstrap.<br>
+            En el sitio web oficial o directamente en el paquete de descarga o instalación, Bootstrap ya incorpora, no sólo plantillas base para
+            modificar y no tener que desarrollar desde cero el código, sino que se basa en plantillas de CSS -las famosas Sass
+            (Syntactically Awseome Style Sheets)- ya pre-desarrolladas para incorporar tipografías, formularios, tablas, paginaciones, modales,
+            imágenes, carruseles, plugins de JS y mucho más.<br>
+            Pero la principal característica de Bootstrap, reside en permitir crear muy fácilmente webs con diseño responsivo o “Responsive Web Designs”.
+            El diseño responsivo consiste básicamente en crear sitios webs que se ajusten inteligente y automáticamente para que se vean bien
+            en cualquier dispositivo o resolución gráfica. Para ello usa clases con funcionalidades específicas, como la clase .container y
+            un sistema de layout llamado “grid system”.<br>
+            LA CLASE .CONTAINER
+            La clase .container provee los fundamentos para el layout general de una página y sus bloques de contenido.
+            Bootstrap provee específicamente la clase .container como un “contenedor” para envolver elementos y dar cabida al sistema de
+            grilla o “grid system” (ver “grid system” en el Artículo 2). Se utiliza para alinear de forma pareja los margenes izquierdo
+            y derechos de la página. La clase .container puede ser fija (“fixed”) o fluida (“fluid”). <br>
+
+            <a href="articulos/ARTÍCULO-CONCEPTOS-FUNDAMENTALES-EN-BOOTSTRAP-4.pdf">Leer más...</a>
+          </p>
+          <p class="border border-right-0 border-bottom-0 border-left-0"></p>
+        </div>
+        <div class="col col-12 col-lg-6">
+          <h5 class="text-center mt-3 border border-right-0 border-left-0">BOOTSTRAP 4: PRIMEROS PASOS<br><br></h5>
+          <p class="border border-top-0 border-bottom-0 px-2">Vamos a incorporar Bootstrap a nuestra plantilla HTML de forma sencilla y a través de la página oficial: https://getbootstrap.com/
+            Si bien hay varias maneras de incorporar Bootstrap, vamos a ver cómo hacerlo descargándolo en nuestra computadora y referenciando
+            tales archivos en la plantilla de HTML. Una vez que estamos en la página oficial de Bootstrap, hacemos click en el botón “Download”. <br><br>
+            <img src="img/img-1-art-extra.png" class="w-50"> <br><br>
+            A continuación, bajamos hasta la sección de “Compiled CSS and JS”, desde donde podremos descargar bundles compilados y minificados
+            listos para usar, y hacemos click en el botón de “Download”. Se abrirá automáticamente un downloader para poder descargar el archivo
+            en la ubicación de descargas de nuestra computadora. <br><br>
+            <img src="img/img-2-art-extra.png" class="w-50"> <br><br>
+            Luego, abrimos la carpeta de descargas y encontraremos un archivo .zip, el cual debemos extraer. Una vez extraído, tendremos una
+            carpeta de bootstrap con el número de versión. Dentro de esa carpeta, se encuentran dos sub-carpetas, “css” y “js”, con los archivos
+            (mapas de bits, bundles y minificados) de hojas de estilos y javascript correspondientemente.<br>
+            <a href="articulos/ARTÍCULO-EXTRA-PRIMEROS-PASOS-EN-BOOTSTRAP.pdf">Leer más...</a>
+          </p>
+          <p class="border border-right-0 border-bottom-0 border-left-0"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- JUMBOTRON -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <p class=" text-justify display-4">Bootstrap posee "clases contextuales", con estilos predefinidos que dan color y características especiales
+          a las otras clases. <br> Estas clases contextuales son: <code class="text-primary">-primary</code>,
+          <code class="text-secondary">-secondary</code>, <code class="text-dark">-dark</code>,<code class="badge badge-pill badge-secondary text-light">-light</code>,
+          <code class="text-danger">-danger</code>, <code class="text-warning">-warning</code>, <code class="text-success">-success</code>,
+          <code class="text-info">-info</code>, <code class="badge badge-pill badge-secondary text-white">-white</code>.</p>
+      </div>
+    </div>
+
+    <!-- TABLA -->
+    <div class="container">
+      <table class="table table-bordered mt-2 mb-5 shadow-lg">
+        <h3 class="bg-dark text-white pt-2 pr-3 pb-2 pl-3 text-justify" id="tabla">En la siguiente tabla, se muestra una lista de algunas clases que se utilizaron en el desarrollo de esta página web:</h3>
+        <!-- EJEMPLO DE MODAL -->
+        <!-- Boton para abrir el Modal -->
+        <div class="border py-2 my-n2 mx-0 border-top-0 border-bottom-0 border-dark">
+          <button id="nota" type="button" class="btn btn-primary ml-3" data-toggle="modal" data-target="#miModal">
+            NOTA!
+          </button>
+        </div>
+        <!-- El Modal -->
+        <div class="modal" id="miModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">IMPORTANTE</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <!-- Modal body -->
+              <div class="modal-body">
+                Haciendo click sobre la clase, se puede ver un ejemplo y copiarlo (<kbd>ctrl + c</kbd>) para su utilización.
+                Tener en cuenta que se deben reemplazar las comillas simples por comillas dobles para su uso en una plantilla HTML.
+              </div>
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Comienza la tabla propiamente dicha-->
+        <thead class="thead-dark">
+          <tr>
+            <th>CLASE</th>
+            <th>FUNCION</th>
+            <th>CATEGORÍA</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <!-- Cada elemento de la Columna "CLASE" contiene un ejemplo de popover -->
+            <td><code class="text-info" data-toggle="popover" title="Ejemplo/Código" data-content="<div class='alert alert-success'>
+              Algún texto aleatorio </div>">.alert</code></td>
+            <td>Crea un mensaje de alerta en caja</td>
+            <td><a href="https://www.w3schools.com/bootstrap4/bootstrap_alerts.asp" target="_blank">Alerts</a></td>
+          </tr>
+          <tr>
+            <td><code class="text-info" data-toggle="popover" title="Ejemplo/Código"
+              data-content="<h1>Example heading <span class='badge badge-secondary'>New</span></h1>">.badge</code></td>
+            <td>Crea un círculo gris, tipo insignia</td>
+            <td><a href="https://www.w3schools.com/bootstrap4/bootstrap_badges.asp" target="_blank">Badges</a></td>
+          </tr>
+          <tr>
+            <td><code class="text-info" data-toggle="popover" title="Ejemplo/Código"
+              data-content="<p class='bg-primary text-white'>Algún texto aleatorio.</p>">.bg-*</code></td>
+            <td>Agrega fondo de color a un elemento. Se utiliza en conjunto con las clases contextuales</td>
+            <td><a href="https://www.w3schools.com/bootstrap4/bootstrap_colors.asp" target="_blank">Colors</a></td>
+          </tr>
+          <tr>
+            <td><code class="text-info" data-toggle="popover" title="Ejemplo/Código" data-content="<blockquote class='blockquote'>
+              <p>Alguna cita aleatoria.</p><footer class='blockquote-footer'>From WWF's website</footer></blockquote>">.blockquote</code></td>
+            <td>Da estilo a bloques con citas de referencia</td>
+            <td><a href="https://www.w3schools.com/bootstrap4/bootstrap_typography.asp" target="_blank">Typography</a></td>
+          </tr>
+          <tr>
+            <td><code class="text-info" data-toggle="popover" title="Ejemplo/Código" data-content="<span class='border'></span>">.border</code></td>
+            <td>Agrega un borde a un elemento</td>
+            <td><a href="https://www.w3schools.com/bootstrap4/bootstrap_utilities.asp" target="_blank">Utilities</a></td>
+          </tr>
+          <tr>
+            <td><code class="text-info" data-toggle="popover" title="Ejemplo/Código" data-content="<ul class='breadcrumb'>
+              <li class='breadcrumb-item'><a href='#'>Fotos</a></li>
+              <li class='breadcrumb-item'><a href='#'>Verano 2020</a></li>
+              <li class='breadcrumb-item'><a href='#'>Argentina</a></li>
+              <li class='breadcrumb-item active'>TDF</li></ul>">.breadcrumb</code></td>
+            <td>Tipo de paginación. Indica la página actual dentro de la navegación.</td>
+            <td><a href="https://www.w3schools.com/bootstrap4/bootstrap_pagination.asp" target="_blank">Pagination</a></td>
+          </tr>
+          <tr>
+            <td><code class="text-info" data-toggle="popover" title="Ejemplo/Código" data-content="<button type='button' class='btn'>Basico</button>">.btn</code></td>
+            <td>Crea un botón básico</td>
+            <td><a href="https://www.w3schools.com/bootstrap4/bootstrap_buttons.asp" target="_blank">Buttons</a></td>
+          </tr>
+          <tr>
+            <td><code class="text-info" data-toggle="popover" title="Ejemplo/Código" data-content="<div class='card'>
+              <div class='card-header'>Header</div>
+              <div class='card-body'>Content</div>
+              <div class='card-footer'>Footer</div></div>">.card</code></td>
+            <td>Crea una tarjeta</td>
+            <td><a href="https://www.w3schools.com/bootstrap4/bootstrap_cards.asp" target="_blank">Cards</a></td>
+          </tr>
+          <tr>
+            <td><code class="text-info" data-toggle="popover" title="Ejemplo/Código" data-content="<div class='form-check'>
+              <label class='form-check-label'>
+                <input type='checkbox' class='form-check-input' value=''>Option 1
+              </label>
+            </div>
+            <div class='form-check'>
+              <label class='form-check-label'>
+                <input type='checkbox' class='form-check-input' value=''>Option 2
+              </label>
+            </div>">.checkbox</code></td>
+            <td>Container para checkboxes</td>
+            <td><a href="https://www.w3schools.com/bootstrap4/bootstrap_forms_inputs.asp" target="_blank">Inputs</a></td>
+          </tr>
+          <tr>
+            <td><code class="text-info" data-toggle="popover" title="Ejemplo/Código" data-content="<button data-toggle='collapse'
+              data-target='#demo'>Collapsible</button>
+              <div id='demo' class='collapse'>
+              Lorem ipsum dolor text....</div>">.collapse</code></td>
+            <td>Indica un elemento colapsable</td>
+            <td><a href="https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp" target="_blank">Collapse</a></td>
+          </tr>
+          <tr>
+            <td><code class="text-info" data-toggle="popover" title="Ejemplo/Código" data-content="<div class='dropdown'>
+              <button class='btn btn-default dropdown-toggle' type='button' data-toggle='dropdown'>Tutorials
+              <span class='caret'></span></button>
+              <ul class='dropdown-menu'>
+                <li><a href='#'>HTML</a></li>
+                <li><a href='#'>CSS</a></li>
+                <li><a href='#'>JavaScript</a></li>
+                <li class='divider'></li>
+                <li><a href='#'>About Us</a></li>
+              </ul></div></div>">.divider</code></td>
+            <td>Usado para separar links en el menú "dropdown" con una barra horizontal delgada</td>
+            <td><a href="https://www.w3schools.com/bootstrap/bootstrap_dropdowns.asp" target="_blank">Dropdowns</a></td>
+          </tr>
+          <tr>
+            <td><code class="text-info" data-toggle="popover" title="Ejemplo/Código" data-content=" <div class='dropdown'>
+              <button type='button' class='btn btn-primary dropdown-toggle' data-toggle='dropdown'>Dropdown button</button>
+              <div class='dropdown-menu'>
+                <a class='dropdown-item' href='#'>Link 1</a>
+                <a class='dropdown-item' href='#'>Link 2</a>
+                <a class='dropdown-item' href='#'>Link 3</a>
+              </div></div> ">.dropdown</code></td>
+            <td>Crea un menu desplegable</td>
+            <td><a href="https://www.w3schools.com/bootstrap4/bootstrap_dropdowns.asp" target="_blank">Dropdowns</a></td>
+          </tr>
+          <tr>
+            <td><code class="text-info" data-toggle="popover" title="Ejemplo/Código" data-content=" <div class='dropup'> ">.dropup</code></td>
+            <td>Crea un menu que se despliega hacia arriba</td>
+            <td><a href="https://www.w3schools.com/bootstrap4/bootstrap_dropdowns.asp" target="_blank">Dropdowns</a></td>
+          </tr>
+          <tr>
+            <td><code class="text-info" data-toggle="popover" title="Ejemplo/Código" data-content=" <form action='/action_page.php'>
+              <div class='form-group'>
+                <label for='email'>Dirección de email:</label>
+                <input type='email' class='form-control' placeholder='Ingrese email' id='email'></div>
+              <div class='form-group'>
+                <label for='pwd'>Contraseña:</label>
+                <input type='password' class='form-control' placeholder='Ingrese contraseña' id='pwd'></div>
+              <button type='submit' class='btn btn-primary'>Enviar</button></form> ">.form-control</code></td>
+            <td>Usado en un <code class="text-secondary">input</code>, <code class="text-secondary">textarea</code>
+              y <code class="text-secondary">select</code> para ocupar todo el ancho de la página y hacerlos responsivos</td>
+            <td><a href="https://www.w3schools.com/bootstrap4/bootstrap_forms.asp" target="_blank">Forms</a></td>
+          </tr>
+          <tr>
+            <td><code class="text-info" data-toggle="popover" title="Ejemplo/Código" data-content="<div class='jumbotron'>
+              <h1>Tutorial Bootstrap</h1>
+              <p>Un contenido cualquiera...</p></div>">.jumbotron</code></td>
+            <td>Crea una caja grande que llama la atención sobre algún contenido</td>
+            <td><a href="https://www.w3schools.com/bootstrap4/bootstrap_jumbotron.asp" target="_blank">Jumbotron</a></td>
+          </tr>
+          <tr>
+            <td><code class="text-info" data-toggle="popover" title="Ejemplo/Código"
+              data-content="<p class='lead'>This paragraph stands out.</p>">.lead</code></td>
+            <td>Incrementa el tamaño de fuente y la altura de línea de un párrafo</td>
+            <td><a href="https://www.w3schools.com/bootstrap4/bootstrap_typography.asp" target="_blank">Typography</a></td>
+          </tr>
+          <tr>
+            <td><code class="text-info" data-toggle="popover" title="Ejemplo/Código" data-content="<div class='media border p-3'>
+              <img src='img_avatar3.png' alt='John Doe' class='mr-3 mt-3 rounded-circle' style='width:60px;'>
+              <div class='media-body'>
+                <h4>John Doe <small><i>Fecha de publicacion</i></small></h4>
+                <p>Lorem ipsum...</p>
+              </div></div>">.media</code></td>
+            <td>Alinea objetos de medios</td>
+            <td><a href="https://www.w3schools.com/bootstrap4/bootstrap_media_objects.asp" target="_blank">Media objects</a></td>
+          </tr>
+          <tr>
+            <td><code class="text-info" data-toggle="popover" title="Ejemplo/Código"
+              data-content="<div class='mx-auto bg-warning' style='width:150px'>Centered</div>">.mx-auto</code></td>
+            <td>Centra un elemento horizontalmente</td>
+            <td><a href="https://www.w3schools.com/bootstrap4/bootstrap_utilities.asp" target="_blank">Utilities</a></td>
+          </tr>
+          <tr>
+            <td><code class="text-info" data-toggle="popover" title="Ejemplo/Código" data-content="<ul class='pagination'>
+              <li class='page-item'><a class='page-link' href='#'>Previous</a></li>
+              <li class='page-item'><a class='page-link' href='#'>1</a></li>
+              <li class='page-item'><a class='page-link' href='#'>2</a></li>
+              <li class='page-item'><a class='page-link' href='#'>Next</a></li></ul> ">.pagination</code></td>
+            <td>Crea una paginación</td>
+            <td><a href="https://www.w3schools.com/bootstrap4/bootstrap_pagination.asp" target="_blank">Pagination</a></td>
+          </tr>
+          <tr>
+            <td><code class="text-info" data-toggle="popover" title="Ejemplo/Código" data-content="<div class='panel panel-default'>
+              <div class='panel-body'>A Basic Panel</div></div>">.panel</code></td>
+            <td>Crea una caja bordeada con algo de padding alrededor del contenido</td>
+            <td><a href="https://www.w3schools.com/bootstrap/bootstrap_panels.asp" target="_blank">Panels</a></td>
+          </tr>
+          <tr>
+            <td><code class="text-info" data-toggle="popover" title="Ejemplo/Código" data-content="
+              <a href='#' data-toggle='popover' title='Popover Header' data-content=
+              'Some content inside the popover'>Toggle popover</a>">.popover</code></td>
+            <td>Caja popup que aparece cuando un usuario hace click en un elemento. Requiere un script de JS para funcionar.</td>
+            <td><a href="https://www.w3schools.com/bootstrap4/bootstrap_popover.asp" target="_blank">Popover</a></td>
+          </tr>
+          <tr>
+            <td><code class="text-info" data-toggle="popover" title="Ejemplo/Código" data-content=" <div class='progress'>
+              <div class='progress-bar' style='width:70%'></div></div> ">.progress</code></td>
+            <td>Contenedor para barras de progreso</td>
+            <td><a href="https://www.w3schools.com/bootstrap4/bootstrap_progressbars.asp" target="_blank">Progress bars</a></td>
+          </tr>
+          <tr>
+            <td><code class="text-info" data-toggle="popover" title="Ejemplo/Código"
+              data-content="<div class='shadow p-4 mb-4 bg-white'>Default shadow</div>">.shadow</code></td>
+            <td>Agrega una sombra a un elemento</td>
+            <td><a href="https://www.w3schools.com/bootstrap4/bootstrap_utilities.asp" target="_blank">Utilities</a></td>
+          </tr>
+          <tr>
+            <td><code class="text-info" data-toggle="popover" title="Ejemplo/Código"
+              data-content="<table class='table'>">.table</code></td>
+            <td>Agrega estilos básicos a una tabla</td>
+            <td><a href="https://www.w3schools.com/bootstrap4/bootstrap_tables.asp" target="_blank">Tables</a></td>
+          </tr>
+          <tr>
+            <td><code class="text-info" data-toggle="popover" title="Ejemplo/Código" data-content="<div class='toast'>
+              <div class='toast-header'>Toast Header</div>
+              <div class='toast-body'>Some text inside the toast body</div></div>">.toast</code></td>
+            <td>Crea una caja de alerta que desaparece luego de unos segundos</td>
+            <td><a href="https://www.w3schools.com/bootstrap4/bootstrap_toast.asp" target="_blank">Toast</a></td>
+          </tr>
+          <tr>
+            <td><code class="text-info" data-toggle="popover" title="Ejemplo/Código" data-content="
+              <a href='#' data-toggle='tooltip' title='Hurra!'>Haz hover sobre mí</a>">.tooltip</code></td>
+            <td>Caja popup que aparece cuando un usuario mueve el puntero sobre un elemento</td>
+            <td><a href="https://www.w3schools.com/bootstrap4/bootstrap_tooltip.asp" target="_blank">Tooltip</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- FOOTER CON TARJETA -->
+    <div class="container-fluid bg-dark" id="footer-id">
+      <div class="row">
+        <div class="col col-12  col-md-4 ">
+          <div id="tarjeta" class="card w-50 text-center mx-auto my-3">
+            <img src="img/foto-perfil.jpg" class="card-img-top">
+            <div class="card-img-overlay">
+              <p class="text-right text-light small">ANDRÉS <br> MASTRACCHIO</p>
+            </div>
+            <div class="card-footer bg-info text-light">
+              <p class="card-text">LEGAJO: 5509</p>
+              <a href="https://andrsmaximiliano.pb.online/" target="_blank" class="btn btn-primary stretched-link">VER PERFIL</a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-md-8">
+          <footer id="footer-sign">
+            <h4 class="">Trabajo Práctico Programación III -
+              Página desarrollada en HTML-CSS-Bootstrap <br> &copy; Andrés M. Mastracchio</h4>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <a class='flotante' href='#top' data-toggle="tooltip" title="Back to top!"><img src='img/icon-back-to-top.png' border="0"/></a>
+
+    <!-- SCRIPTS DE JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();
+      });
+    </script>
+    <script>
+      $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+  </body>
+</html>

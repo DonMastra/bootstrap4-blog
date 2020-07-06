@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#top {
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+}
+
+#top ul li {
+  padding: 5px;
+}
+
+#arts {
+  font-size: 21px;
+  text-decoration: none;
+  color: azure;
+}
+
+#titulo-video {
+  font-family: 'Indie Flower', cursive;
+}
+
+#titulo-articulos {
+  font-family: 'Indie Flower', cursive;
+}
+
+#articulos {
+  font-family: 'Indie Flower', cursive;
+  font-size: 18px;
+}
+
+#articulos img {
+  display: block;
+  margin: auto;
+}
+
+table tr:hover {
+  background-color: #b4b8b3;
+  color: azure;
+}
+
+table tr td a:hover {
+  color: azure;
+}
+
+#tabla {
+  font-family: 'Indie Flower', cursive;
+}
+
+#nota {
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+}
+
+#footer-sign h4{
+  margin-top: 125px;
+  text-align: center;
+  color: azure;
+}
+
+.flotante {
+    display:scroll;
+    position: fixed;
+    bottom:50px;
+    right:50px;
+}
