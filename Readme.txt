@@ -1,4 +1,6 @@
-BibliografÌa:
+This is a excercise blog that shows how to use Bootstrap4 in a web page, basic code & grid and container concepts
+
+Bibliograf√≠a:
 
 - Wireframe: https://mockflow.com/
 - Bootstrap 4: https://getbootstrap.com/
@@ -10,12 +12,12 @@ BibliografÌa:
 
 Recursos:
 
-- SelecciÛn de colores: https://htmlcolorcodes.com/es/
-- Õconos: https://www.flaticon.es/categorias/comunicaciones
+- Selecci√≥n de colores: https://htmlcolorcodes.com/es/
+- √çconos: https://www.flaticon.es/categorias/comunicaciones
 - Fuentes: https://fonts.google.com/
-- Video tutorial "Primeros pasos", by AndrÈs M. Mastracchio
-- Carpeta 'bootstrap-4.4.1 (archivos fuente)': en la misma encontrar·n archivos fuente de la descarga de bootstrap, 
-adem·s de las plantillas base de ejemplo, descritas en el video tutorial 
+- Video tutorial "Primeros pasos", by Andr√©s M. Mastracchio
+- Carpeta 'bootstrap-4.4.1 (archivos fuente)': en la misma encontrar√°n archivos fuente de la descarga de bootstrap, 
+adem√°s de las plantillas base de ejemplo, descritas en el video tutorial 
 (ruta: \bootstrap-4.4.1 (archivos fuente)\site\docs\4.4\examples)
 
 
